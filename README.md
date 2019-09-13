@@ -9,7 +9,7 @@ Environment
 Supplement
 -----
 
-`targetver.h` :show Windows platform adaption<br>
+`targetver.h`:show Windows platform adaption<br>
 `stdafx.h`:include common libraries<br>
 `stdafx.cpp`<br>
 
@@ -39,7 +39,7 @@ Supplement
 `load_and_snap_reflocs_BJ`:load and snap reference locations of BJ dataset<br>
 `load_and_snap_reflocs_CA`:load and snap reference locations of CA dataset<br>
 
-`mindist.h`: calculate for comparing with min-dist FR problems<br>
+`mindist.h`:calculate for comparing with min-dist FR problems<br>
 `load_users_facs_cands`:EN Load synthetic users, facilities,candidates data<br>
 `load_realusers_facs_cands`:EN:Load real users,facilities,candidates data<br>
 `md_load_users:min-dist`:Load synthetic users data<br>
@@ -51,16 +51,16 @@ Supplement
 `MINDIST`:mid-dist:Calculate the resulting data<br>
 `solutions.h`:Base class and function for EN,LNB,RID,RID-Q,greedy_k RID<br>
 `EN`:EN algorithm<br>
-`LNB_top_visito`r:top event visitor for LNB algorithm<br>
+`LNB_top_visitor`:top event visitor for LNB algorithm<br>
 `LNB_extend_visitor`:extend event visitor for LNB algorithm<br>
-`LNB_construct_LNT`: LNB algorithm:construct LNT and L2NT<br>
+`LNB_construct_LNT`:LNB algorithm:construct LNT and L2NT<br>
 `LNB_query`:LNB algorithm:query optimal facility-replacement pair based on LNT & L2NT<br>
 `NNFC_visitor`:top event visitor for calculate NNFC<br>
 `NSJ_visitor`:top event visitor for NSJ algorithm<br>
 `NSJ_construct_NNFC`:NSJ algorithm:construct NNFCs R-tree<br>
 `NSJ_query`:NSJ algorithm:query optimal candidate based on NNFCs<br>
 `NNFC_RIC_visitor`:top event visitor for calculate NNFC & RIC<br>
-`RID_construct_NNFC_and_RIC`: RID algorithm:compute dr(f), i.e., \Delta(f), construct NNFC MBRs for reference locations and RIC MBRs for facilities<br>                                            		
+`RID_construct_NNFC_and_RIC`:RID algorithm:compute dr(f), i.e., \Delta(f), construct NNFC MBRs for reference locations and RIC MBRs for facilities<br>                                            		
 `RID_query`:RID algorithm:query optimal candidate based on RICs<br>
 `RID_new_query`:greedy_k RID:query optimal candidate based on RICs<br>
 `RID_update_NNFC_and_RIC`:greedy_k RID:compute dr(f), i.e., \Delta(f), construct NNFC MBRs for references<br>       
@@ -76,7 +76,7 @@ Supplement
 
 Data
 -----
-1.There are two datasets which are recorded by two folder:`BJ_datasets `and` CA_datasets`.<br>
+1.There are two datasets which are recorded by two folder:`BJ_datasets`and`CA_datasets`.<br>
 2.The specific data file includes the following contents:<br>
 `gen_edges`:road network data.<br>
 `gen_cands_`:candidates location data.<br>
